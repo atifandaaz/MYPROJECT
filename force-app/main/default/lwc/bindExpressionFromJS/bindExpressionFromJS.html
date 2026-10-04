@@ -1,0 +1,43 @@
+<template>
+<lightning-card
+title="Bind expression fromJS "
+icon-name="utility:user">
+
+<div class="container">
+
+<div class="greeting">
+<lightning-input name="fullName" label="Enter full Name" onchange={handleChange}>
+</lightning-input>
+
+
+<lightning-input type="number" name="phone" label="Enter phone number" onchange={handleChange} >
+
+</lightning-input>
+<lightning-input type="email" name="email" label="Email address" onchange={handleChange}>
+
+</lightning-input>
+
+</div>
+</div>
+<div style="padding: 10px;">
+<table border="1">
+<tr>
+<td>Full Name</td>
+<td>{toUppercase}</td>
+</tr>
+
+<tr>
+<td>phone</td>
+<td>{phone}</td>
+</tr>
+
+<tr>
+    <td>Email</td>
+    <td>{email}</td>
+</tr>
+
+</table>
+
+</div>
+</lightning-card>
+</template>

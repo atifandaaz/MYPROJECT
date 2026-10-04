@@ -1,0 +1,27 @@
+<template>
+<lightning-card
+title="How to bind Conditinal element in LWC "
+icon-name="utility:edit">
+
+<div class="container">
+
+<div class="greeting">
+Hello, {myValue}!
+</div>
+
+<div>
+<lightning-input type= "checkbox" label="clickMe" onchange={handleChange}>
+
+</lightning-input>
+<template if:true={showMe}>
+i am visible from true condition
+</template>
+<template if:false={showMe}>
+i am visible from false condition
+</template>
+</div>
+
+</div>
+
+</lightning-card>
+</template>

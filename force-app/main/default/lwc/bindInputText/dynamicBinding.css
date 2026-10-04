@@ -1,0 +1,14 @@
+.container {
+    padding: 20px;
+    background-color: #f3f6f9;
+}
+
+.greeting {
+    color: #0176d3;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 8px;
+}
